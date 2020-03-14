@@ -1,0 +1,134 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+/* HEADER */
+.header img{
+    width: 180px;
+}
+.header ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 20px 0;
+    margin-top:5px;
+}
+.header ul a{
+    text-decoration: none;
+    color: white;
+}
+.header ul li{
+    display: inline;
+    margin:0 10px;
+}
+.carousel{
+    background-image: url("../img/slider_1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* INTRO  */
+.intro__items img{
+    width: 100%;
+    display: block;
+}
+.intro__left, .intro__right{
+    float: left;
+    width: 50%;
+} 
+.intro__item1, .intro__item2 {
+    float: left;
+    width: 50%;
+    
+}
+.intro__items{
+    padding: 0 10px 10px;
+}
+/* PRODUCTS  */
+.products h2{
+    text-align: center;
+}
+
+.products__items {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.products__items img{
+    width: 100%;
+}
+.products__items button{
+    border: 1px solid #D9544F;
+    background-color: #D9544F;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;  /* Hiện bàn tay  */
+    padding: 8px 10px;
+
+}
+
+/* BANNER */
+.banner{
+    background-image: url("../img/nature.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+    width: 100%;
+    position: relative;
+}
+ .banner__cricle {
+     width: 200px;
+     height: 200px;
+     background-color: rgba(245, 105, 100, 0.479);
+     border-radius: 50%;
+     text-align: center;
+     color: white;
+     /* opacity: 0.5;Làm mờ hình */
+     position: absolute;
+     left: 300px;
+     top: 10px;
+ }
+
+ /* 
+ position: relative, absolute, fixed
+
+ đùng absolute phải kèm theo relative
+ */
+
+ /* SERVICE  */
+.service {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px 50px;
+}
+.service_item img {
+    width: 60px;
+    height: 60px;
+}
+
+/* FOOTER  */
+.footer {
+    background-color: black;
+}
+.footer h1{
+    color: white;
+   display: block;
+   text-align: center;
+   padding-top: 20px;
+   margin-bottom: -20px;
+}
+.footer P{
+    color: white;
+   display: block;
+   text-align: center;
+   
+}
